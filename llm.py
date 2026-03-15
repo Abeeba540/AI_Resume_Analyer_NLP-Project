@@ -5,11 +5,13 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_API_KEY = os.getenv("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
+")
 GROQ_BASE_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 HEADERS = {
-    "Authorization": f"Bearer {GROQ_API_KEY}",
+    "Authorization": f"Bearer {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
+}",
     "Content-Type": "application/json"
 }
 
@@ -39,7 +41,8 @@ Job Description:
         "temperature": 0.4
     }
 
-    # print("🔍 Debug: GROQ_API_KEY loaded:", bool(GROQ_API_KEY))
+    # print("🔍 Debug: GROQ_API_KEY loaded:", bool(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
+))
     # print("🔍 Debug: Headers being sent:", HEADERS)
     # print("🔍 Debug: Payload being sent:", payload)
 
